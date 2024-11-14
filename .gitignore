@@ -1,0 +1,24 @@
+# Ignore Emacs backup files
+*~
+
+# Ignore Emacs auto-save files
+.#*
+
+# Ignore compiled files
+*.fasl
+*.ufsl
+*.lib
+*.x86f
+*.sparcf
+*.64f
+*.lx64fsl
+*.dx64fsl
+*.fx64fsl
+*.sx64fsl
+*.wx64fsl
+
+# Ignore SLIME REPL history
+.slime-history.eld
+
+# Ignore VSCode specific files
+.vscode/
