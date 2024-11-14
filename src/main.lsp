@@ -1,5 +1,5 @@
 ;; Setting the list with values
-(set 'my-list '(a1 b1 c1 123 0.1 3/4 ("text" a2 b2 c2) () (nil) 99))
+(defparameter my-list '(a1 b1 c1 123 0.1 3/4 ("text" a2 b2 c2) () (nil) 99))
 
 ;; Verifying the list
 my-list
@@ -84,8 +84,8 @@ my-list
 ;;; Task for variant:
 (rem 11 8) ; 3
 
-(set 'super-list-bottom '(3 c b))
-(set 'super-list-full (list 1 'a (nthcdr 2 super-list-bottom) super-list-bottom))
+(defparameter super-list-bottom '(3 c b))
+(defparameter super-list-full (list 1 'a (nthcdr 2 super-list-bottom) super-list-bottom))
 
 super-list-full ; (1 A (B) (3 C B))
 
